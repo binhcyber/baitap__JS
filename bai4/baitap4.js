@@ -14,11 +14,11 @@ function dienTich() {
   var a = chieuDaiUserEl.value;
   var b = chieuRongUserEl.value;
   var dienTich = Number(a) * Number(b);
-  // console.log(dienTich);
+  document.getElementById("SodienTich").innerHTML = dienTich;
 }
 function chuVi() {
   var a = chieuDaiUserEl.value;
   var b = chieuRongUserEl.value;
   var chuVi = (Number(a) + Number(b)) * 2;
-  // console.log(chuVi);
+  document.getElementById("SochuVi").innerHTML = chuVi;
 }

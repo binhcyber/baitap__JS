@@ -9,13 +9,9 @@
  */
 
 var soNgayLamUserEL = document.getElementById("ngayLamCuaUser");
-// console.log(soNgayLamUserEL);
 var tienLuongTrenNgay = 100000;
-// console.log(soNgayLamUserEL);
-// console.log(tongTienUserEl);
-
 function tinhTien() {
   var a = soNgayLamUserEL.value;
   var b = Number(a) * tienLuongTrenNgay;
-  console.log(b);
+  document.getElementById("tongTienCuaUser").innerText = b;
 }

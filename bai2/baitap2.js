@@ -12,13 +12,7 @@ var numUser2 = document.getElementById("num2");
 var numUser3 = document.getElementById("num3");
 var numUser4 = document.getElementById("num4");
 var numUser5 = document.getElementById("num5");
-// console.log({
-//   numUser1,
-//   numUser2,
-//   numUser3,
-//   numUser4,
-//   numUser5,
-// });
+
 function trungBinhCongSoThuc() {
   var a = numUser1.value;
   var b = numUser2.value;
@@ -27,5 +21,6 @@ function trungBinhCongSoThuc() {
   var e = numUser5.value;
   var trungBinhCong =
     (Number(a) + Number(b) + Number(c) + Number(d) + Number(e)) / 5;
-  console.log(trungBinhCong);
+
+  document.getElementById("ketQuaSoThuc").innerHTML = trungBinhCong;
 }

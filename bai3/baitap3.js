@@ -9,11 +9,9 @@
  */
 
 var tienUserUSD = document.getElementById("UserUSD");
-// console.log(tienUserUSD);
-
 function quyDoiTien() {
   var a = tienUserUSD.value;
   var giaUSD = 23500;
   var quyDoi = Number(a) * giaUSD;
-  console.log(quyDoi);
+  document.getElementById("quyDoiSangVND").innerHTML = quyDoi;
 }

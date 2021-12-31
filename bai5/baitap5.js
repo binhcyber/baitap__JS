@@ -7,13 +7,10 @@
  * output: tổng 2 chữ số đã nhập
  */
 var kySoUserEl = document.getElementById("kySo");
-
 function kySoUser() {
   var a = kySoUserEl.value;
   var tachLayHangDonVi = Number(a) % 10;
-  //   console.logs(tachLayHangDonVi);
   var tachLayHangChuc = Math.floor(Number(a) / 10);
-  //   console.log(tachLayHangChuc);
   var TongKySo = tachLayHangDonVi + tachLayHangChuc;
-  // console.log(TongKySo);
+  document.getElementById("tongKySo").innerHTML = TongKySo;
 }
