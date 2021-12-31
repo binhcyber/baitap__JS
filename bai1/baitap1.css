@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20%;
+}
+h1 {
+  font-size: 40px;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: rgb(32, 32, 165);
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.label {
+  font-size: 20px;
+}
